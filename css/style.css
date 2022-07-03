@@ -509,8 +509,6 @@ img{
 
     transition: opacity var(--animation),
                 visibility var(--animation);
-
-    z-index: 100;
 }
 
 .modal-close-btn{
