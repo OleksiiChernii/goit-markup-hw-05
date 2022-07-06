@@ -277,7 +277,6 @@ img{
 
 .about-overlay{
     position: relative;
-    overflow: hidden;
 }
 
 .about .description{
@@ -296,10 +295,6 @@ img{
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
-
-    transform: translateY(0);
-    transition: transform var(--animation);
-
 }
 
 .section.team{
@@ -366,12 +361,14 @@ img{
     color: var(--icons-color);
     border-radius: 50%;
 
-    transition: background-color var(--animation);
+    transition: background-color var(--animation),
+                color var(--animation);
 }
 
 .social-link:hover,
 .social-link:focus{
     background-color: var(--accent);
+    color: var(--primary-white);
 }
 
 .social-icon,
@@ -634,6 +631,8 @@ img{
 
 .works a{
     display: inline-block;
+
+    transition: box-shadow var(--animation);
 }
 
 .works a:hover .work-description,
