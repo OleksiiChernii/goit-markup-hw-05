@@ -112,7 +112,7 @@ img{
 .site-nav .current,
 .logo span,
 .site-nav .link:hover,
-.site-nav .link:hover,
+.site-nav .link:focus,
 .contact-nav .link:hover,
 .contact-nav .link:focus{
     color: var(--accent);
